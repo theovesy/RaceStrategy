@@ -105,6 +105,7 @@ GitHub.sublime-settings
 !.vscode/extensions.json 
 .history
 .code-workspace
+src/__pycache__/
 
 personal/
 .ipynb_checkpoints/
