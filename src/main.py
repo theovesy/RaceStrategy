@@ -20,10 +20,15 @@ start_grid = cars
 track = Track("Paul Ricard", 5842)
 
 #Race
-race = Race(lap_limit = 100)
+race = Race(lap_limit = 40)
 
 def main():
+    print("===========================")
     print('RaceStrategy 0.0')
+    print("===========================")
+    print('')
+
+
     play_race(cars, track, race)
 
 def play_race(cars, track, race):

@@ -8,9 +8,9 @@ def speed(laptimems, distance):
 
 #prints info about the race
 def printRace(start_grid, track, race):
-    print(f"We are racing at {track.name} for {race.laplimit}")
+    print(f"We are racing at {track.name} for {race.lap_limit}")
     print('Starting grid :')
-    for i in len(start_grid):
+    for i in range(len(start_grid)):
         print(f"{i+1} - #{start_grid[i].number}")
     print('==================')
 
