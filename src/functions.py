@@ -6,3 +6,11 @@ def toMillisecond(time):
 def speed(laptimems, distance):
     return distance/laptimems
 
+#prints info about the race
+def printRace(start_grid, track, race):
+    print(f"We are racing at {track.name} for {race.laplimit}")
+    print('Starting grid :')
+    for i in len(start_grid):
+        print(f"{i+1} - #{start_grid[i].number}")
+    print('==================')
+

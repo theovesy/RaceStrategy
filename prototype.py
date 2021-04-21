@@ -1,3 +1,6 @@
+# Simply a prototype to basic features before implementation in the main loop
+
+
 import random 
 import time
 

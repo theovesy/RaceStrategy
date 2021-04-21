@@ -14,7 +14,7 @@ cars = [porsche, aston, ferrari]
 
 #Creating a start order
 
-start_order = cars
+start_grid = cars
 
 #Track
 track = Track("Paul Ricard", 5842)
@@ -28,7 +28,8 @@ def main():
 
 def play_race(cars, track, race):
     finishers = []
-    race_order = start_order
+    printRace(start_grid, track, race)
+    race_order = start_grid
     #Main simulation loop, simulates every ms :
     while len(finishers) < len(cars): 
         race.elapsed_time += 1
