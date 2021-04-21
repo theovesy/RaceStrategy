@@ -1,0 +1,13 @@
+#+TITLE: RaceStrategy Notepad
+
+* TODO Add team and model to car object
+* TODO Convert time into proper laptimes
+* TODO Generate Laptime in a better way (normal distribution?) (a lot to think about here !)
+
+* TODO Store data for each car in some sort of race report 
+
+* Ideas:
+Use a list of every car object in the race. 
+Car has attribute "status" : "pit", "run", "retired", "finished"
+Use a finisher list to establish order
+
